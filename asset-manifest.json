@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/yogeshgiri904/react-portfolio/static/css/main.63f1d668.chunk.css",
+    "main.js": "/yogeshgiri904/react-portfolio/static/js/main.66da8c11.chunk.js",
+    "main.js.map": "/yogeshgiri904/react-portfolio/static/js/main.66da8c11.chunk.js.map",
+    "runtime-main.js": "/yogeshgiri904/react-portfolio/static/js/runtime-main.f654a86f.js",
+    "runtime-main.js.map": "/yogeshgiri904/react-portfolio/static/js/runtime-main.f654a86f.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/yogeshgiri904/react-portfolio/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.c4d4d46d.chunk.js": "/yogeshgiri904/react-portfolio/static/js/2.c4d4d46d.chunk.js",
+    "static/js/2.c4d4d46d.chunk.js.map": "/yogeshgiri904/react-portfolio/static/js/2.c4d4d46d.chunk.js.map",
+    "static/js/3.f0027b4b.chunk.js": "/yogeshgiri904/react-portfolio/static/js/3.f0027b4b.chunk.js",
+    "static/js/3.f0027b4b.chunk.js.map": "/yogeshgiri904/react-portfolio/static/js/3.f0027b4b.chunk.js.map",
+    "index.html": "/yogeshgiri904/react-portfolio/index.html",
+    "static/css/2.2aa38b9c.chunk.css.map": "/yogeshgiri904/react-portfolio/static/css/2.2aa38b9c.chunk.css.map",
+    "static/css/main.63f1d668.chunk.css.map": "/yogeshgiri904/react-portfolio/static/css/main.63f1d668.chunk.css.map",
+    "static/js/2.c4d4d46d.chunk.js.LICENSE.txt": "/yogeshgiri904/react-portfolio/static/js/2.c4d4d46d.chunk.js.LICENSE.txt",
+    "static/media/book.adbd980c.png": "/yogeshgiri904/react-portfolio/static/media/book.adbd980c.png",
+    "static/media/ceo-img.bc4420b7.png": "/yogeshgiri904/react-portfolio/static/media/ceo-img.bc4420b7.png",
+    "static/media/graduation-hat.30e38cb2.png": "/yogeshgiri904/react-portfolio/static/media/graduation-hat.30e38cb2.png",
+    "static/media/portfolio-1.03e60bf7.jpg": "/yogeshgiri904/react-portfolio/static/media/portfolio-1.03e60bf7.jpg",
+    "static/media/portfolio-2.1c8a501c.jpg": "/yogeshgiri904/react-portfolio/static/media/portfolio-2.1c8a501c.jpg",
+    "static/media/portfolio-3.882da074.jpg": "/yogeshgiri904/react-portfolio/static/media/portfolio-3.882da074.jpg",
+    "static/media/portfolio-4.0ee7bbdb.jpg": "/yogeshgiri904/react-portfolio/static/media/portfolio-4.0ee7bbdb.jpg",
+    "static/media/portfolio-5.d80c3569.jpg": "/yogeshgiri904/react-portfolio/static/media/portfolio-5.d80c3569.jpg",
+    "static/media/portfolio-6.8355ff1b.jpg": "/yogeshgiri904/react-portfolio/static/media/portfolio-6.8355ff1b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f654a86f.js",
+    "static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.c4d4d46d.chunk.js",
+    "static/css/main.63f1d668.chunk.css",
+    "static/js/main.66da8c11.chunk.js"
+  ]
+}
