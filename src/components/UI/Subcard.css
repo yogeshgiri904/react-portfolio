@@ -1,0 +1,171 @@
+.project-grid .project-child {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 300px;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.project-grid .project-child img {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.project-grid .project-child section {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.project-grid .project-child section::before,
+.project-grid .project-child section::after {
+    pointer-events: none;
+}
+
+.project-grid .project-child section,
+.project-grid .project-child section > .main-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+}
+
+.main-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.project-grid .project-child section > .main-link{
+    text-indent: 100%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.project-grid .project-child h2 {
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.project-grid .project-child .file-link{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.fa-icon{
+    color: black;
+    font-size: 20px;
+}
+
+.project-grid .project-child .file-link:hover{
+    transition: all 0.5s ease;
+    transform: rotate(360deg);
+    border-radius: 100px;
+}
+
+.project-grid .project-child h2,
+.project-grid .project-child p{
+    margin: 0;
+}
+
+.project-grid .project-child p {
+    letter-spacing: 1px;
+    font-size: 10px;
+    padding: 0px 50px 10px;
+}
+
+.project-child.project-child {
+    background: -webkit-linear-gradient(
+      45deg,
+      #22682a 0%,
+      #9b4a1b 40%,
+      #3a342a 100%
+    );
+    background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+    }
+
+    .project-child.project-child img {
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+    }
+
+    .project-child.project-child section {
+    background-color: rgba(58, 52, 42, 0.548);
+    -webkit-transition: background-color 0.35s;
+    transition: background-color 0.35s;
+    }
+
+    .project-child.project-child section::before {
+    position: absolute;
+    width: 350px;
+    top: 25px;
+    right: 25px;
+    bottom: 25px;
+    left: 25px;
+    border: 1px solid white;
+    content: "";
+    }
+
+    .project-child.project-child h2 {
+    margin: 25% 0 10px 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    }
+
+    .project-child.project-child section::before,
+    .project-child.project-child p,
+    .project-child.project-child .file-link {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    }
+
+    .project-child.project-child:hover h2 {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    }
+
+    .project-child.project-child:hover section::before,
+    .project-child.project-child:hover p,
+    .project-child.project-child:hover .file-link {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    }
+
+    .project-child.project-child:hover section {
+    background-color: rgba(58, 52, 42, 0);
+    }
+
+    .project-child.project-child:hover img {
+    opacity: 0.4;
+    }
+
+    

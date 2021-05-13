@@ -1,0 +1,10 @@
+.qual-logo{
+    width: 62px;
+    margin: -1px;
+}
+
+@media(max-width:1170px){
+    .qual-logo{
+        width: 42px;
+    }
+}

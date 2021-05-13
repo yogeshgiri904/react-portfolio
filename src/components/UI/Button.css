@@ -1,0 +1,12 @@
+.header-button{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 15px 10px 0px 0px;
+    border: 2px solid #2EE59D;
+    border-radius: 100px;
+    transition-duration: .3s;
+}
+.header-button:hover{
+    transform: scale(.95);
+}

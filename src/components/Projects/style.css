@@ -1,0 +1,9 @@
+.project-grid {
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+}
